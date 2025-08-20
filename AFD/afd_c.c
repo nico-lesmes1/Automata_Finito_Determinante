@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define MAX 100       // longitud máxima de una línea
-#define MAX_T 100     // máximo número de transiciones
+#define MAX 10
+#define MAX_T 10
 
 int main(void) {
     FILE *f = fopen("conf.txt", "r");
@@ -76,3 +76,4 @@ int main(void) {
     return 0;
 
 }
+
