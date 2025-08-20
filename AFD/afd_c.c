@@ -70,10 +70,11 @@ int main(void) {
         for (int f = 0; f < n_finales; ++f)
             if (strcmp(estado, finales[f]) == 0) { acepta = 1; break; }
 
-        printf("%s : %s\n", cad, acepta ? "acepto" : "no acepto");
+        printf("%s : %s\n", cad, acepta ? "acepta" : "no acepta");
     }
     fclose(c);
     return 0;
 
 }
+
 
